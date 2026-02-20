@@ -31,6 +31,7 @@ body {
     flex-direction: column;
     padding: 1rem 5rem;
     border: 3px solid red;
+    justify-content: space-between;
 }
 
 .header {
@@ -56,6 +57,34 @@ body {
 .logo {
     font-family: "Lobster", sans-serif;
     font-size: 2rem;
+}
+
+/* Hero section  */
+h1 {
+    line-height: 1;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    /* margin-block-start: 3rem; */
+}
+
+.text {
+    width: 48%;
+    height: 300px;
+}
+
+.img-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 300px;
+    background: darkgray;
+    align-self: flex-center;
 }
 
 /* Foooter */
