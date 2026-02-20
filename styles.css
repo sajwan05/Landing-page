@@ -183,9 +183,9 @@ p {
 }
 
 
-.cta-btn {
+.btn-cta {
     color: #F9FAF8;
-    border: 1px solid currentColor;
+    border: 1px solid #F9FAF8;
     background: transparent;
 }
 /* Foooter */
@@ -208,7 +208,9 @@ button {
     padding: 0.5rem 2rem;
     border-radius: 12px;
     flex-shrink: 0;
+}
 
+.hero-btn {
     background: #3882f6;
     color: #F9FAF8;
 }
