@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -11,6 +13,18 @@ html {
 }
 
 html,
-body {
+body,
+.main-container {
     height: 100%;
 }
+
+body {
+    font-family: "Roboto", monospace, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.4;
+
+    background: #eee;
+}
+
+
+
